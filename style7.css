@@ -1,0 +1,23 @@
+.box {
+  border: 1px solid red;
+  width: 400px;
+  height: 400px;
+  margin: 100px;
+  padding: 100px;
+}
+.heading {
+  border: 1px solid red;
+  width: 300px;
+  text-align: center;
+  margin: 50px 100px 200px 300px;
+}
+.boxc {
+  font-size: 50px;
+  text-align: center;
+  border: 10px solid red;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+} /* box sizing이 중요한 이유: 전체적인 박스랑 컨텐츠의 밸런스를 잡아준다. ***그리고 늘어나는 넓이값과 높이값을 유지하면서 박스를 생성하게끔 만드는 기능*** */
+

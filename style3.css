@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+.text {
+  color:blue;
+}
+#text {
+  color: green;
+}
+p {
+  font-weight: normal;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: italic;
+  color: rgba(0,0,0,0.1)
+
+}
+a {
+  text-decoration: none;
+
+}
+p.copy {
+  text-transform: capitalize;
+}
