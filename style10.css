@@ -1,0 +1,74 @@
+.parent {
+  border: 5px solid red;
+  width: 600px;
+  overflow: hidden; /* float 속성으로 높이 값을 찾는 방법 */
+}
+.child {
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.parent1 {
+  border: 5px solid red;
+  width: 600px;
+  overflow: hidden; /* float 속성으로 높이 값을 찾는 방법 */
+  text-align: center; /* 인라인 요소는 부모 요소를 센터 어라인으로 맞춘다 */
+}
+.child1 {
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: auto; /* 인라인 요소 때문에 차일드가 중앙으로 안 간다 */
+}
+.parentbl {
+  border: 5px solid red;
+  width: 600px;
+}
+.top {
+  background-color: purple;
+  height: 50px;
+}
+.left {
+  background-color: gray;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+.right {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+.clear {
+  background-color: purple;
+  height: 50px;
+  clear: both; /* float 속성을 상속받지 않고 헤제해버림 - 위에 있는 float 요소를 상속 받지 않고 싶을때 사용 */
+}
+section {
+  width: 600px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 1px solid red;
+  box-sizing: border-box; /* 가로 배치나 레이아웃이 안 맞을때 */
+}
+/* 인라인 블락으로 가로배치 하기 박스 안에 공백이 있어도 상관이 없는 경우
+section {
+  border: 5px solid black;
+  text-align: center;
+}
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline-block;
+} */

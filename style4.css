@@ -1,0 +1,8 @@
+.menu {
+  list-style:noe;
+  padding: 0;
+}
+.menu li:before {
+  content: '♂ ';
+} 
+/*글자 입력후 '한자'키를 누르면 다양한 디자인 아이콘을 활용할 수 있다 */
